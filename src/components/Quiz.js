@@ -6,7 +6,7 @@ export default function Quiz() {
     let [currQues, setCurrQues] = useState(0);
     let allow = false;
     let [score, setScore] = useState(0);
-    let [showResult, setShowRes] = useState(true);
+    let [showResult, setShowRes] = useState(false);
     
 
 
