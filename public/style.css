@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+    font-family: 'Oswald', sans-serif;
+}
+
+.parent{
+    
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    /* border: 10px solid black; */
+
+}
+
+.title{
+
+    /* border: 1px solid black; */
+    min-width: 400px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+
+}
+
+h1{
+    letter-spacing: 2px;
+    font-size: 2.7rem;
+    color: #9c3c3c;
+
+    
+}
+
+.pinkBtn{
+
+    border: none;
+    outline: none;
+    padding: 1% 5%;
+    margin-top: 6%;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    background-color: pink;
+    color: #9c3c3c;
+    box-shadow: 1px 2px 3px 1px rgb(0,0,0,0.1);
+    min-width: 30%;
+    margin: 6% auto 3%;
+}
+
+
+.pinkBtn:hover{
+
+    background-color: rgb(251, 169, 183);
+}
+
+.quiz{
+
+    align-self: center;
+    width:500px;
+    /* height:700px; */
+    margin: 0 3%;
+    /* border: 1px solid black; */
+
+}
+
+.container{
+
+    background-color: white;
+    padding:8% 10%;
+    border-radius: 8px;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+li{
+    list-style-type: none;
+    margin:5%;
+}
+
+input{
+
+    margin-right: 5%;
+}
+h4{
+    margin-bottom: 10%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.4rem;
+
+}
+
+.sbtn{
+    width:100%;
+    border:none;
+    outline: none;
+    padding: 5%;
+    background-color: #4370E7;
+    border-radius: 0px 0px 8px 8px;
+    color:white;
+    font-size: 1rem;
+
+}
+
+.sbtn:hover{
+    background-color: #2f58c9;
+}
+
+.btnc{
+    margin-top:-1%;
+    width: 100%;
+    
+}
+
+input[type="radio"]
+{
+    
+    accent-color: #4370E7;
+}
+
+.result{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background-color: white;
+    padding:3% 5%;
+    border-radius: 8px;
+    width: 500px;
+    text-align: center;
+    letter-spacing: 3px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+h2{
+    margin-top: 5%;
+}
+
+h5{
+    margin-top: 4%;
+}
+
+@media (max-width:530px) {
+
+    .quiz{
+        width:90%;
+        
+    }
+
+    .result{
+        width: 90%;
+    }
+    
+}
+
+@media (max-width:566px) {
+
+    h1{
+        font-size: 1.6rem;
+        
+    }
+
+    body{
+        height: 120vh;
+    }
+    
+}
